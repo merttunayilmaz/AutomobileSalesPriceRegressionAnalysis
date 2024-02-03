@@ -1,0 +1,35 @@
+OLS Regression Results                            
+==============================================================================
+Dep. Variable:            SatisFiyati   R-squared:                       0.075
+Model:                            OLS   Adj. R-squared:                  0.031
+Method:                 Least Squares   F-statistic:                     1.715
+Date:                Sat, 03 Feb 2024   Prob (F-statistic):             0.0879
+Time:                        23:14:31   Log-Likelihood:                -2600.3
+No. Observations:                 200   AIC:                             5221.
+Df Residuals:                     190   BIC:                             5254.
+Df Model:                           9                                         
+Covariance Type:            nonrobust                                         
+=================================================================================
+                    coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------
+const         -2.457e+07   9.25e+06     -2.657      0.009   -4.28e+07   -6.33e+06
+YakıtTüketimi  -277.9373   2772.605     -0.100      0.920   -5746.979    5191.105
+ModelYili      1.226e+04   4582.431      2.676      0.008    3224.353    2.13e+04
+KapiSayisi     1.965e+04   9736.214      2.018      0.045     447.370    3.89e+04
+MotorGucu       136.2725    286.437      0.476      0.635    -428.733     701.278
+Kilometre        -0.0419      0.133     -0.316      0.752      -0.303       0.219
+GarantiSuresi  9191.6401   4574.256      2.009      0.046     168.791    1.82e+04
+KoltukSayisi   -581.8653   7143.981     -0.081      0.935   -1.47e+04    1.35e+04
+MaxHiz          -13.6253    234.073     -0.058      0.954    -475.341     448.091
+AracKodu         -0.1627      3.254     -0.050      0.960      -6.581       6.255
+==============================================================================
+Omnibus:                       43.687   Durbin-Watson:                   1.996
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                9.267
+Skew:                          -0.022   Prob(JB):                      0.00972
+Kurtosis:                       1.946   Cond. No.                     1.36e+08
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.36e+08. This might indicate that there are
+strong multicollinearity or other numerical problems.
